@@ -16,3 +16,5 @@ the_box.name = "The Box"
 the_box.artist_name = "Roddy Ricch"
 song.save
 
+song.save.include?(the_box)
+
