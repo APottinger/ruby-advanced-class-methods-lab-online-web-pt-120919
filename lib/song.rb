@@ -12,4 +12,7 @@ class Song
   
 end
 
+the_box.name = "The Box"
+the_box.artist_name = "Roddy Ricch"
+song.save
 
