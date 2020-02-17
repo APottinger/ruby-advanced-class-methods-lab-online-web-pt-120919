@@ -11,6 +11,7 @@ class Song
   end
   def initialize(create)
     @create = create
+    @@all << song.all
   end
     
 end
