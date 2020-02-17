@@ -12,10 +12,8 @@ class Song
   
 end
 
-the_box = Song.new 
-the_box.name = "The Box"
-the_box.artist_name = "Roddy Ricch"
-song.save
-
-song.save.include?(the_box)
+s = Song.new
+s.name = "The Ship Song"
+s.artist_name = "Nick Cave"
+s.save
 
