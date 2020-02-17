@@ -11,7 +11,7 @@ class Song
   end
   
 end
-
+the_box = Song.new 
 the_box.name = "The Box"
 the_box.artist_name = "Roddy Ricch"
 song.save
