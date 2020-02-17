@@ -9,7 +9,10 @@ class Song
   def save
     self.class.all << self
   end
-  
+  def initialize(create)
+    @create = create
+  end
+    
 end
 
 s = Song.new
